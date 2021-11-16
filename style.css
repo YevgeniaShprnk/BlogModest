@@ -73,7 +73,7 @@ body{
     border-radius: 3px;
     border: 2px solid #23b7a4;
 }
-.container, .wlcm-container, .mdst-container, .mteam-container{
+.container, .wlcm-container, .mdst-container, .mteam-container, .lowely-container{
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -163,7 +163,7 @@ body{
 .main-row-mdst, .main-row-mteam{
     border-bottom: #dde1e4 1px solid;
 }
-.mdst-description-col .mdst-title .title, .mteam-team-col .mteam-team-title .title{
+.mdst-description-col .mdst-title .title, .mteam-team-col .mteam-team-title .title, .lovely-col .title{
     font-size: 36px;
     color: #292f36;
     font-weight: 700;
