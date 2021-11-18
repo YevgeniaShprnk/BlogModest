@@ -297,7 +297,7 @@ body{
 .main-row-lowely, .main-row-features{
     background-color: #3a454d;
 }
-.lowely-box-cart img{
+.lowely-box-cart img, .features-box-cart img{
     max-width: -webkit-fill-available;
 }
 .lowely-box-cart {
