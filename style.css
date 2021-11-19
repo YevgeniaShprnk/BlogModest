@@ -194,14 +194,14 @@ body{
     align-items: flex-start;
     margin-bottom: -25px;
 }
-.mdst-description-col .mdst-description .description, .features-description .description{
+.mdst-description-col .mdst-description .description, .stayit-description .description{
     font-size: 16px;
     line-height: 26px;
     color: #8d8f92;
     font-weight: 400;
     font-family: "Open Sans";
 }
-.mdst-description-col .mdst-description .description span, .features-description .description span{
+.mdst-description-col .mdst-description .description span, .stayit-description .description span{
     font-weight: 700;
 }
 .mdst-description-col .mdst-link .link ul{
