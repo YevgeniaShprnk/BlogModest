@@ -63,7 +63,7 @@ body{
     border: 2px solid transparent;
 }
 .page-header .menu>li{
-    margin-left: 15px;
+    margin: 15px;
 }
 .page-header .menu li a:hover{
     border-radius: 3px;
@@ -273,6 +273,18 @@ body{
 .mteam-team-col .mteam-team-box .team-box-cart:hover{
     background-color: #3a454d;
 }
+.hover-p-container{
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    align-items: center;
+}
+.hover-p-container img{
+    height: 50px;
+    width: 50px;
+    background-color: #3a454d;
+    margin: 2px;
+}
 .hover-p{
     width: 263px;
     height: 300px;
@@ -387,7 +399,6 @@ footer{
     justify-content: center;
     width: 100%;
 }
-}
 .footer-box{
     display: flex;
     flex-wrap: wrap;
@@ -487,6 +498,10 @@ footer{
     }
     .page-header .search-box .search{
         width: 119px;
+    }
+    .page-header .menu>li{
+        margin: 0;
+        margin-left: 15px;
     }
     .main-row-wlcm{
         background-image: url("blog/img (2).png");
