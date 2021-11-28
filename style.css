@@ -389,6 +389,8 @@ body{
 }
 .stayint-container .container-box{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 footer{
     height: 95px;
@@ -412,7 +414,7 @@ footer{
     justify-content: center;
 }
 .form-sendmessage form{
-    width: 555px;
+
 }
 .form-container-title{
     font-size: 14px;
@@ -426,10 +428,9 @@ footer{
 }
 .form-container input{
     height: 44px;
-    width: 240px;
 }
 .form-container textarea{
-    width: 509px;
+    width: -webkit-fill-available;
 }
 .form-row{
     width: 100%;
