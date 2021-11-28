@@ -387,6 +387,9 @@ body{
 .stayit-box .maps, .stayit-box .title, .stayit-box .description{
     margin: 15px;
 }
+.stayint-container .container-box{
+    display: flex;
+}
 footer{
     height: 95px;
     background-color:#292f36;
@@ -408,6 +411,45 @@ footer{
     display: flex;
     justify-content: center;
 }
+.form-sendmessage form{
+    width: 555px;
+}
+.form-container-title{
+    font-size: 14px;
+    line-height: 26px;
+    color: #8d8f92;
+    font-weight: 700;
+    font-family: "Quattrocento Sans";
+}
+.form-container input, textarea{
+    background-color: #eaeef1;
+}
+.form-container input{
+    height: 44px;
+    width: 240px;
+}
+.form-container textarea{
+    width: 509px;
+}
+.form-row{
+    width: 100%;
+    display: flex;
+}
+.form-container{
+    margin: 15px;
+}
+.form-sendmessage button{
+    width: 150px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quattrocento Sans";
+    background-color: #23b7a4;
+    margin: 15px;
+}
+
 /*tablet*/
 @media(min-width:768px){
     .container{
@@ -569,6 +611,7 @@ footer{
     }
     .footer-box{
         display: flex;
+        flex-wrap: nowrap;
     }
     .footer-box-description{
         justify-content: flex-start;
