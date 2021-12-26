@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="jquery.immersive-slider.js"></script>
+    <link href='immersive-slider.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <header class="page-header">
@@ -42,22 +45,48 @@
         <div class="mainrow-first-r">
             <div class="main-row-wlcm">
             <div class="wlcm-container">
-                <div class="wlcm-title">
-                    <div class="title">
-                        welcome to our marketplace
+                <div id="immersive_slider">
+                    <div class="slide" style="background-image: url('blog/img (2).png');">
+                        <div class="wlcm-title">
+                            <div class="title">
+                                welcome to our marketplace
+                            </div>
+                        </div>
+                        <div class="wlcm-description">
+                            <div class="description">
+                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+        non, ornare sagittis dolor. Nulla vestibulu lacus ...
+                            </div>  
+                         </div>
+                         <div class="wlcm-btn">
+                             <div class="btn">
+                                 <button>view more</button>
+                                 <button>video tour</button>
+                             </div>
+                        </div>
+
                     </div>
-                </div>
-                <div class="wlcm-description">
-                    <div class="description">
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
-non, ornare sagittis dolor. Nulla vestibulu lacus ...
-                    </div>  
-                 </div>
-                 <div class="wlcm-btn">
-                     <div class="btn">
-                         <button>view more</button>
-                         <button>video tour</button>
-                     </div>
+                    <div class="slide">
+                        <div class="wlcm-title">
+                            <div class="title">
+                                welcome to our marketplace
+                            </div>
+                        </div>
+                        <div class="wlcm-description">
+                            <div class="description">
+                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+        non, ornare sagittis dolor. Nulla vestibulu lacus ...
+                            </div>  
+                         </div>
+                         <div class="wlcm-btn">
+                             <div class="btn">
+                                 <button>view more</button>
+                                 <button>video tour</button>
+                             </div>
+                        </div>
+                    </div>
+                    <a href="#" class="is-prev">&laquo;</a>
+                    <a href="#" class="is-next">&raquo;</a>
                 </div>
              </div>
             
@@ -489,5 +518,12 @@ non, ornare sagittis dolor. Nulla vestibulu lacus ...
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+  	  $(document).ready( function() {
+  	    $("#immersive_slider").immersive_slider({
+  	      container: ".main"
+  	    });
+  	  });
+    </script>
 </body>
 </html>
